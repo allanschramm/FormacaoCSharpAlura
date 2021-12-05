@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ByteBank.Funcionarios
 {
-    public  class Designer : Funcionario, Autenticavel
+    public  class Designer : FuncionarioAutenticavel
     {
         public Designer(string nome, double salario, string cpf) : base(nome, salario, cpf)
         {
