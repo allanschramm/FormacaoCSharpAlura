@@ -45,7 +45,7 @@ namespace ByteBank
 
         static void Main(string[] args)
         {
-            // CalcularBonificacao();
+            CalcularBonificacao();
 
             UsarSistema();
         }
